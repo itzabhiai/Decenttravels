@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+.carousel2 {
+  position: relative;
+  width: 100%;
+  height: 628px; /* Adjust the height as needed */
+  overflow: hidden;
+  padding-top: 80px;
+}
+
+.carousel2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.carousel2 .content-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  /* background-color: rgba(255, 255, 255, 0.7); */
+  color: #000000;
+  text-align: center;
+}
+
+.carousel2 .controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel2 .arrow {
+ background:transparent;
+ padding-bottom: 30px;
+  
+  cursor: pointer;
+  border: none;
+}
+
+.carousel2 .arrow:focus {
+  outline: none;
+}
+
+.carousel2 .arrow.prev {
+  margin-left: 10px;
+}
+
+.carousel2 .arrow.next {
+  margin-right: 10px;
+}
+.carah1{
+  font-size: 50px;
+  font-weight: 900;
+  
+font-family: 'Carter One', cursive;
+background: #F7E700;
+background: linear-gradient(to bottom right, #F7E700 0%, #DDED00 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+}
+.carap{
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(25, 7, 194);
+  font-family: 'Carter One', cursive;
+
+
+}
+@media screen and (max-width: 750px) {
+  .carousel2 {
+    position: relative;
+    width: 100%;
+    height: 690px; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+  .carah1{
+    font-size: 50px;
+    font-weight: 900;
+    
+  font-family: 'Carter One', cursive;
+  background: #F7E700;
+  background: linear-gradient(to bottom right, #F7E700 0%, #DDED00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 400px;
+  
+  }
+  .carap{
+   padding-left: 20px;
+   padding-right: 20px;
+  
+  
+  }
+}

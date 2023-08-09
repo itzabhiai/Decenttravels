@@ -1,0 +1,70 @@
+.MainContect{
+    margin-top: 60px;
+}
+.herocontect{
+    background-image: url("https://res.cloudinary.com/dlbp05ldk/image/upload/v1688815580/Contect_D_kjggfg.png");
+    background-repeat: no-repeat;
+background-size: cover;
+margin-top: 60px;
+height: 320px;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.herocontect h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    background: #CF2E84;
+    background: linear-gradient(to right, #CF2E84 0%, #CF001C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Content{
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  
+
+}
+.Content p{
+padding-left: 10%;
+margin-top: 20px;
+padding-right: 40px;
+}
+@media screen and (max-width: 1150px) {
+
+    .herocontect{
+
+        background-image: url("https://res.cloudinary.com/dlbp05ldk/image/upload/v1688816717/contect_us_m_2_wj3hkk.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 66px;
+    height: 220px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    justify-content: center;
+    }
+    .Content{
+        margin-left: 4%;
+        margin-right: 4%;
+        border: 2px solid black;
+        border-radius: 20px;
+        text-align: justify;
+        margin-top: 20px;
+        margin-bottom: 40px;
+      
+    
+    }
+
+
+}

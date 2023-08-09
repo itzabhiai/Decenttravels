@@ -1,0 +1,29 @@
+.mainFaq{
+    
+    text-align: justify;
+    padding: 80px;
+    padding-left: 180px;
+}
+.mainFaq p{
+    color: rgb(0, 109, 73);
+    font-weight: 600;
+}
+.mainFaq h1{
+    color: rgb(0, 109, 73);
+    font-weight: 600;
+    text-align: justify;
+}
+
+@media screen and (max-width: 750px) {
+    .mainFaq{
+    
+        text-align: justify;
+        padding: 20px;
+        
+        
+    }
+    .mainFaq h1{
+        font-size: 20px;
+    }
+
+}

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+body {
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  
+  .tablee {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tablee th,
+  .tablee td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  .tablee th {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+  }
+  
+  .tablee tbody tr:nth-child(even) {
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .tablee tbody tr:hover {
+    background-color: lightblue;
+  }
+  
+.Hero{
+
+    background-image: url("https://res.cloudinary.com/dlbp05ldk/image/upload/v1688369606/Untitled_1800_420_px_1_rn0ids.png");
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: 60px;
+height: 320px;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.Hero h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+    background: #CF2E84;
+    background: linear-gradient(to right, #CF2E84 0%, #CF001C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+}
+.Hero p{
+    font-family: 'Carter One', cursive;
+    color: rgb(41, 2, 32);
+}
+
+
+.Homecard{
+   
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+
+}
+.Homecard h1{
+    font-family: 'Carter One', cursive;
+    text-align: center;
+    color: aqua;
+    font-size: 30px;
+
+    
+}
+.Homecard p{
+    text-align: center;
+    color: #000000;
+
+}
+
+@media screen and (max-width: 1150px) {
+
+    .Hero{
+
+        background-image: url("https://res.cloudinary.com/dlbp05ldk/image/upload/v1688455090/Untitled_design_2_iyikpo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 66px;
+    height: 320px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    justify-content: center;
+    }
+
+
+}
+@media screen and (max-width: 450px) {
+
+    .Hero{
+
+        background-image: url("https://res.cloudinary.com/dlbp05ldk/image/upload/v1688455089/Untitled_400_280_px_x675am.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 6px;
+    height: 280px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    justify-content: center;
+    }
+
+
+}
+@media screen and (max-width: 750px) {
+    .Homecard h1{
+        font-family: 'Carter One', cursive;
+        text-align: justify;
+        color: aqua;
+        font-size: 30px;
+    
+        
+    }
+    .Homecard p{
+        text-align: justify;
+        color: #000000;
+    
+    }
+}

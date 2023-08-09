@@ -1,0 +1,70 @@
+.Heroimage{
+
+    background-image: url("https://res.cloudinary.com/dlbp05ldk/image/upload/v1688922809/Untitled_design_6_xnvroa.png");
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: 60px;
+height: 420px;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.Heroimage h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    background: #CF2E84;
+    background: linear-gradient(to right, #CF2E84 0%, #CF001C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+}
+.Heroimage p{
+    font-family: 'Carter One', cursive;
+    color: rgb(41, 2, 32);
+}
+.text{
+    padding: 150px;
+    text-align: justify;
+    padding-top: 20px;
+}
+.text h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+    background: #805f70;
+    background: linear-gradient(to right, #066070 0%, #00cfad 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: justify;
+}
+.text p{
+    
+}
+@media screen and (max-width: 750px) {
+    .text{
+        padding: 20px;
+        text-align: justify;
+        padding-top: 20px;
+    }
+    .Heroimage{
+       
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 66px;
+        height: 180px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+        justify-content: center;
+    }
+    .Heroimage h1{
+        font-size: 25px;
+    }
+
+
+}

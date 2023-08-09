@@ -1,0 +1,113 @@
+.navbar {
+ height: 80px;
+  width: 100%;
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  color: #fff;
+  padding: 20px;
+  z-index: 999;
+}
+
+/* Add the following styles to create space below the navbar */
+body {
+  margin-top: 70px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.navbar-logo {
+  margin-left: 20px;
+}
+
+.navbar-logo img {
+  height: 50px;
+  width: 70px;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.nav-link:hover{
+  color: aqua;
+  transition: ease-in-out 2s;
+}
+
+
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+    justify-content: right;
+  }
+
+  .navbar-container {
+    display: flex;
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 79px;
+    left: -100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    padding: 20px;
+  }
+
+  .nav-menu.active {
+    left: 0;
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .nav-item {
+    margin-bottom: 10px;
+  }
+
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .navbar-logo img {
+    height: 70px;
+    width: 120px;
+   
+  }
+  .navbar-logo {
+    margin-left: 0px;
+  }
+}

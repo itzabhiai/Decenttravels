@@ -1,0 +1,28 @@
+.aboutmain{
+   
+}
+.aboutmain h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: aqua;
+}
+.aboutmain p{
+    color: rgb(48, 58, 68);
+    
+}
+.textab{
+    padding: 150px;
+    text-align: justify;
+    padding-top: 20px;
+}
+@media screen and (max-width: 750px) {
+    .aboutmain{
+        
+        
+    }
+    .textab{
+        padding: 20px;
+        text-align: justify;
+        padding-top: 20px;
+    }
+}

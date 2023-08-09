@@ -1,0 +1,64 @@
+.Maincard{
+   
+    padding-bottom: 20px;
+ 
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+}
+.card{
+    margin: 20px;
+    box-sizing: border-box;
+    text-align: justify;
+     background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-box-shadow: -1px 2px 5px 6px rgba(0,0,0,0.21);
+-moz-box-shadow: -1px 2px 5px 6px rgba(0,0,0,0.21);
+box-shadow: -1px 2px 5px 6px rgba(0,0,0,0.21);
+}
+.card p{
+    color: rgb(251, 255, 5);
+}
+.card h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+.popinclude{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding: 20px;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.popinclude1{
+    display: flex;
+    justify-content: center;
+    
+    padding: 20px;
+    
+}
+.popinclude h1 p{
+text-align: justify;
+}
+
+@media screen and (max-width: 750px) {
+
+    .popinclude{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        padding: 20px;
+        flex-direction: column;}
+        .popinclude1{
+            flex-direction: column;
+        }
+
+}

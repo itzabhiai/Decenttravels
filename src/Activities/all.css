@@ -1,0 +1,48 @@
+.dtext h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+    background: #805f70;
+    background: linear-gradient(to right, #066070 0%, #00cfad 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: justify;
+}
+.dtext h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 15px;
+    background: #5f8080;
+    background: linear-gradient(to right, #5f2c4c 0%, #00cfad 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: justify;
+}
+.dtext{
+    padding: 150px;
+    text-align: justify;
+    padding-top: 20px;
+}
+.hero5 {
+    background-image: url("https://res.cloudinary.com/dlbp05ldk/image/upload/v1688817029/Guidline_D_wudqnx.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 66px;
+    height: 220px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+.hero5 h1{
+    font-weight: 700;
+    color: #805f70;
+}
+
+@media screen and (max-width: 750px) {
+    .dtext{
+        padding: 19px;
+        text-align: justify;
+        padding-top: 20px;
+    }
+}
